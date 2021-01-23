@@ -1,21 +1,23 @@
-import Dashboard from './Pages/Dashboard'
-import CoinDetail from './Pages/CoinDetail'
+import Dashboard from "./Pages/Dashboard";
+import CoinDetail from "./Pages/CoinDetail";
 
-import {BrowserRouter, Route} from 'react-router-dom'
-import Header from './Components/Header';
+import { BrowserRouter, Route } from "react-router-dom";
+import Header from "./Components/Header";
 
-import './App.css'
+import "./App.css";
+import { WatchListContextProvider } from "./Context/watchListContext";
 
 const App = () => {
   return (
     <div className="app">
-      <BrowserRouter>
-      <Header />
-      <Route exact path='/' component={Dashboard} />
-      </BrowserRouter>
-     
+      <WatchListContextProvider>
+        <BrowserRouter>
+          <Header />
+          <Route exact path="/" component={Dashboard} />
+        </BrowserRouter>
+      </WatchListContextProvider>
     </div>
   );
-}
+};
 
 export default App;
