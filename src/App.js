@@ -1,8 +1,10 @@
-import CoinDetail from './Pages/CoinDetail'
 import Dashboard from './Pages/Dashboard'
+import CoinDetail from './Pages/CoinDetail'
 
 import {BrowserRouter, Route} from 'react-router-dom'
 import Header from './Components/Header';
+
+import './App.css'
 
 const App = () => {
   return (
