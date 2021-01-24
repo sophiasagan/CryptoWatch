@@ -1,14 +1,15 @@
-import React from 'react'
-import AddCoin from '../Components/AddCoin'
-import List from '../Components/List'
+import React from "react";
+import AddCoin from "../Components/AddCoin";
+import List from "../Components/List";
+import "./Dashboard.css";
 
 function Dashboard() {
-    return (
-        <div>
-            <AddCoin />
-            <List />
-        </div>
-    )
+  return (
+    <div className="dashboard">
+      <AddCoin />
+      <List />
+    </div>
+  );
 }
 
-export default Dashboard
+export default Dashboard;

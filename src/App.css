@@ -13,6 +13,7 @@ ul {
   list-style: none;
 }
 
+
 .coinlist-image {
   width: 50px;
 }
@@ -30,7 +31,7 @@ ul {
   font-size: 10px;
 }
 
-.delete-icon {
+.delete__icon {
   display: none;
   position: absolute;
   right: 6px;
