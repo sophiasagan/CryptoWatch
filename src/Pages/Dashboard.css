@@ -6,8 +6,16 @@
   border-radius: 2px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   padding: 10px 0 15px;
-  text-align: center;
-  background-color: #21242c;
-  width: 520px;
-  height: 550px;
+  /* text-align: center; */
+  background-color: rgba(16, 18, 27, 0.4);
+  max-width: 1250px;
+  max-height: 860px;
+  /* height: 90vh; */
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  width: 85%;
+  border-radius: 14px;
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
 }

@@ -1,0 +1,40 @@
+.coinInfo__chart {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  margin: 20px;
+  /* border: 35px solid lightgray; */
+  position: absolute;
+  bottom: 0%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  /* border-radius: 2px; */
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  padding: 20px;
+  text-align: center;
+  background-color: rgba(16, 18, 27, 0.4);
+  max-width: 1250px;
+  max-height: 860px;
+  /* height: 90vh; */
+  overflow: hidden;
+  width: 85%;
+  border-radius: 14px;
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+}
+
+.flex-column {
+    /* display: flex;
+    flex-direction: row; */
+    /* margin: 5px; */
+    text-align: center;
+}
+
+
+.coin-data-category {
+    /* display: flex;
+    flex-direction: row; */
+    /* margin: 5px; */
+    color: green;
+}

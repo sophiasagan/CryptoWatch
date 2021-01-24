@@ -1,0 +1,51 @@
+.difference__red {
+  color: #f00;
+}
+
+.difference__green {
+  color: #7cfc00;
+}
+
+.chart {
+  padding: 20px;
+  margin: 20px;
+  /* border: 35px solid lightgray; */
+  color: white;
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  /* border-radius: 2px; */
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  padding: 20px;
+  text-align: center;
+  background-color: rgba(16, 18, 27, 0.4);
+  max-width: 1250px;
+  max-height: 860px;
+  /* height: 90vh; */
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  width: 85%;
+  border-radius: 14px;
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+}
+
+
+.btn {
+  /* font-size: 12px; */
+  /* font-weight: bold; */
+  background-color: rgba(16, 18, 27, 0.4);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  color: white;
+  padding: 10px 15px;
+  margin: 5px;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: all linear 0.3s;
+  box-shadow: 6px 6px 12px #0000005a, -6px -6px 12px #7c7c7c8a;;
+
+  cursor: pointer;
+}

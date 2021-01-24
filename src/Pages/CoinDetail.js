@@ -9,6 +9,7 @@ function CoinDetail() {
   const [coinData, setCoinData] = useState([]);
   const [isLoading, setIsLoading] = useState(false);
 
+  // 
   const formatData = (data) => {
     return data.map((el) => {
       return {
