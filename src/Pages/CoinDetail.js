@@ -64,7 +64,14 @@ function CoinDetail() {
 
   const renderData = () => {
     if (isLoading) {
-      return <div>Loading....</div>;
+      return <div class="load-wrapp">
+      <div class="load-7">
+        <p>Loading 7</p>
+        <div class="square-holder">
+          <div class="square"></div>
+        </div>
+      </div>
+    </div>;
     }
     return (
       <div className="coinlist">

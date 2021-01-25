@@ -11,7 +11,9 @@ function Coin({ coin, deleteCoin }) {
     <Link to={`/coins/${coin.id}`} className="coin">
       <li className="coinlist__item">
         <img className="coinlist__image" src={coin.image} alt="" />
-        <span className="coinlist__price">{coin.current_price}</span>
+        <span className="coinlist__name">{coin.name}</span>
+        <span className="coinlist__symbol">{coin.symbol}</span>
+        <span className="coinlist__price">${coin.current_price}</span>
         <span
           className={
             coin.price_change_percentage_24h < 0

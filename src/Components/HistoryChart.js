@@ -82,14 +82,14 @@ function HistoryChart({ data }) {
       <div className="chart__buttons">
         <button
           onClick={() => setTimeFormat("24h")}
-          className="24h__button btn"
+          className="24h__button button"
         >
           24h
         </button>
-        <button onClick={() => setTimeFormat("7d")} className="7d__button btn">
+        <button onClick={() => setTimeFormat("7d")} className="7d__button button">
           7d
         </button>
-        <button onClick={() => setTimeFormat("1y")} className="1y__button btn">
+        <button onClick={() => setTimeFormat("1y")} className="1y__button button">
           1y
         </button>
       </div>

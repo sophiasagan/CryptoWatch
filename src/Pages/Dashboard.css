@@ -13,7 +13,7 @@
   /* height: 90vh; */
   display: flex;
   flex-direction: column;
-  overflow: hidden;
+  /* overflow: hidden; */
   width: 85%;
   border-radius: 14px;
   backdrop-filter: blur(20px);
