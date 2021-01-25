@@ -1,4 +1,4 @@
-# Crypto
+# CryptoWatch
 A simple react app to track and graph cryptocurrency using the CoinGecko API
 
 ![](./assets/cryptowatch.png)
